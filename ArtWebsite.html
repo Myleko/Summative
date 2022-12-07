@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ArtWebsite</title>
+        <link rel="stylesheet" href="Art.css">
+        <base href="ArtWebsite.html">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="Art.js"></script>
+
+<style>
+  body {
+    background-image: url('https://media.istockphoto.com/id/1044276446/photo/blue-sky-with-white-clouds-in-retro-grunge-style-nature-background.jpg?s=612x612&w=0&k=20&c=jps58wDYKgC4vSFq0rVLBFToMJF6IxB3TSFxxhgya9I=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+  }
+
+</style>
+
+    </head>
+
+   
+    <body>
+      <div id="box2">
+         <h1 id = "Top">History of Art in today's world</h1>
+        <p>This website is divided into two main sections: First section includes six the most influential artist in the World from the past (in my opinion), which includs three most famous art pieces of the artist, together with their short description. The second section includes statistics on art gelleries and museums nowdays and well as Newsletter sign-up form.</p>
+
+      </div>
+        
+<!Code for Dropdown menu taken from Boostrap - https://getbootstrap.com/docs/4.0/components/dropdowns/>
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Artists Sections
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#Leonardo">Go to Leonardo DaVinci's Section</a>
+            <a class="dropdown-item" href="#Vincent">Go to Vincent van Gogh's Section</a>
+            <a class="dropdown-item" href="#Rembrant">Go to Rembrant's Section</a>
+            <a class="dropdown-item" href="#Michaelangelo">Go to Michaelangelo's section</a>
+            <a class="dropdown-item" href="#Vermeer">Go to Vermeer's Section</a>
+            <a class="dropdown-item" href="#Gaugin">Go to Paul Gaugin's Section</a>
+            <a class="dropdown-item" href="#Table"> Go to Table Section</a>
+            <a class="dropdown-item" href="#visiting">Check your Museum visits</a> 
+            <a class="dropdown-item" href="#subscribe">Go to Newsletter signup form:D</a> 
+          </div>
+        </div>
+
+       
+<!Leonardo section>         
+
+        <div class="art">
+            <h2 id="Leonardo">Leonardo DaVinci</h2>
+
+            <div id="box">
+              <marquee direction="right">
+
+                <div style="display: inline-block">
+                <img src="https://cdn.britannica.com/24/189624-050-F3C5BAA9/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg" 
+              height="500">
+              <div style="position:relative; left:120px">Mona Lisa</div>
+            </div>
+            
+            <div style="display: inline-block">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg/2560px-The-Last-Supper-Restored-Da-Vinci_32x16.jpg"
+              height="500" hspace="600">
+              <div style="position:relative; left: 1100px">The Last Supper</div>
+              </div>
+              
+              <div style="display: inline-block">
+                <img src="https://cdn.britannica.com/46/198846-050-82EE84FC/Lady-Ermine-oil-panel-Leonardo-da-Vinci.jpg?w=600&q=60"
+                height="500">
+                <div style="position:relative; left:100px">Lady with an Ermine</div>
+              </div>
+            
+              </marquee>
+              </div>
+
+              <div id="text">
+             <p>Born: April 15, 1452 - Italy</p>
+             <p>Died: May 2, 1519 - France</p>
+             <p>Profession: Painter, Engineer, Scientist, Theorist, Draughtsman, Sculprot and Architect</p>
+             <p>Style: Early Renaissance, Renaissance </p>
+              
+             <a href="#Top"><button>Go to the top of the website</button></a>  
+             </div>     
+        </div>
+
+
+<!van Gogh section>
+
+        <div class="art">
+            <h2 id="Vincent">Vincent van Gogh</h2>
+
+            <div id="box">
+             <marquee  direction="left">
+
+              <div style="display: inline-block">
+              <img src="https://i0.wp.com/tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07092809/909px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?resize=909%2C720&ssl=1" height="500">
+                <div style="position: relative; left:300px">The Starry Night</div>
+                </div>
+
+                <div style="display: inline-block">
+              <img src="https://i0.wp.com/tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07095440/395px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg?resize=395%2C480&ssl=1" hspace="600" height="500">
+                  <div style="position: relative; left:700px">Van Gogh self-portrait</div>
+            </div>
+
+            <div style="display: inline-block">
+              <img src="https://iiif.micr.io/TZCqF/full/1280,/0/default.jpg" height="500">
+            <div style="position:relative; left:150px">Sunflowers</div>  
+            </div>
+             </marquee>
+             </div>
+          
+             <div id="text">
+             <p>Born: March 30, 1853 - Zundert, Netherlands</p>
+             <p>Died: July 29, 1890 - Auvers-sur-Oise, France</p>
+             <p>Profession: Painter, Visual Artist, Art Dealer</p>
+             <p>Style: Post-Impressionism, Neo-Impressionism and Pointilism </p>
+
+             <a href="#Top"><button>Go to the top of the website</button></a>
+             </div>
+        </div>
+
+
+<!Rembrant section>
+
+        <div class="art">
+            <h2 id="Rembrant">Rembrant</h2>
+
+            <div id="box">
+              <marquee direction="right">
+
+                <div style="display: inline-block">
+                  <img src="https://historylists.org/images/the-anatomy-lesson-of-dr-nicolaes-tulp.jpg" height="500">
+                <div style="position: relative; left:200px">The Anatomy Lesson of Dr. Nicolaes Tulp</div>
+              </div>
+
+              <div style="display: inline-block">
+                  <img src="https://historylists.org/images/the-night-watch.jpg" hspace="600" height="500">
+                <div style="position: relative; left:900px">The Night Watch</div>
+              </div>
+
+              <div style="display: inline-block">
+                  <img src="https://historylists.org/images/the-return-of-the-prodigal-son.jpg" height="500">
+                <div style="position: relative; left:300px">The Return of the Prodigal Son</div>
+              </div>
+
+              </marquee>
+            </div>
+
+            <div id="text">
+             <p>Born: 15 July, 1606 - Leiden, Netherlands</p>
+             <p>Died: 4 October, 1669, Amsterdam, Netherlands</p>
+             <p>Profession: Painter, Visual Artist, Drawer, Printmaker</p>
+             <p>Style: Baroque, Dutch Golden Age</p>
+                      
+             <a href="#Top"><button>Go to the top of the website</button></a>
+             </div>
+        </div>
+
+<!Michaelangelo section>
+
+        <div class="art">
+            <h2 id="Michaelangelo">Michaelangelo</h2>
+
+            <div id="box">
+              <marquee direciton="left">
+
+                  <div style="display: inline-block">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Michelangelo%27s_David-Galleria_dell%27Accademia.jpg/1024px-Michelangelo%27s_David-Galleria_dell%27Accademia.jpg" height="500">
+                      <div style="position: relative; left:100px">David</div>
+                  </div>
+
+                  <div style="display: inline-block">
+                    <img src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc4Njg5NjgzNTQ3ODcx/hith-sistine-chape-2.jpg" height="500" hspace="600">
+                      <div style="position: relative; left:900px">The Creation of Adam</div>
+                  </div>
+
+                  <div style="display: inline-block">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg/1024px-Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg" height="500">
+                      <div style="position: relative; left:300px">Pieta</div>
+                  </div>
+
+              </marquee>
+              </div>
+
+              <div id="text">
+             <p>Born: 6 March, 1475 - Caprese Michelangelo, Italy</p>
+             <p>Died: 18 February, 1564 - Rome, Italy</p>
+             <p>Profession: Painter, Architect, Sculptor, Poet, Engineer, General contractor, Visual Artist</p>
+             <p>Style: REnaissance, Italian Renaissance, High Renaissance</p>
+
+             <a href="#Top"><button>Go to the top of the website</button></a>
+             </div>
+        </div>    
+
+<!Vermeer section>
+
+        <div class="art">
+            <h2 id="Vermeer">Vermeer</h2> 
+
+            <div id="box">
+              <marquee direction="right">
+
+                <div style="display: inline-block">
+                  <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2016/01/girlwithapearlearring.jpg" height="500">
+                    <div style="position: relative; left:150px">Girl with a Pearl Earring</div>
+                </div>
+
+                <div style="display: inline-block">
+                  <img src="https://blog.artsper.com/wp-content/uploads/2022/06/Jeune-femme-a-laiguiere-Vermeer-1660%E2%80%931662-Metropolitan-Museum-of-Art-New-York-2-571x644.jpg" height="500" hspace="600">
+                    <div style="position: relative; left:700px">Woman with a Water Jug</div>
+                </div>
+
+                <div style="display: inline-block">
+                  <img src="https://blog.artsper.com/wp-content/uploads/2022/06/LArt-de-la-peinture-De-Schilderkunst-Vermeer-vers-1666-1668-Kunsthistorisches-Museum-Vienna-1-542x644.jpg" height="500">
+                    <div style="position: relative; left:150px">The Art of Painting</div>
+                </div>
+
+              </marquee>
+              </div>
+
+              <div id="text">
+             <p>Born: October, 1632 - Delft, Netherlands</p>
+             <p>Died: December, 1675 - Delft, Netherlands</p>
+             <p>Profession: Painter, Visual Artist</p>
+             <p>Style: Baroque, Dutch Golden Age</p>
+
+             <a href="#Top"><button>Go to the top of the website</button></a>
+             </div>
+        </div>
+
+<!Gaugin section>
+
+        <div class="art">
+          <h2 id="Gaugin">Paul Gaugin</h2>
+
+          <div id="box">
+            <marquee direction="left">
+
+              <div style="display: inline-block">
+                <img src="https://learnodo-newtonic.com/wp-content/uploads/2013/07/Where-Do-We-Come-From-What-Are-We-Where-Are-We-Going-By-Paul-Gauguin.webp" height="500">
+                  <div style="position: relative; left:300px">Where Do We Come From? What Are We? Where Are We Going?</div>
+              </div>
+
+              <div style="display: inline-block">
+                <img src="https://learnodo-newtonic.com/wp-content/uploads/2016/05/Spirit-of-the-Dead-Watching-1892-Paul-Gauguin.webp" height="500" hspace="600">
+                  <div style="position: relative; left:800px">Spirit of the Dead Watching</div>
+              </div>
+              
+              <div style="display: inline-block">
+                <img src="https://learnodo-newtonic.com/wp-content/uploads/2013/07/The-Yellow-Christ-Le-Christ-jaune-by-Paul-Gauguin.webp"height="500">
+                  <div style="position: relative; left:150px">The Yellow Christ</div>
+              </div>
+            
+            </marquee>
+            </div>
+
+            <div id="text">
+             <p>Born: 7 June, 1848 - Paris, France</p>
+             <p>Died: 8 May, 1903 - Hiva Oa, Marquesas Islands, French Polynesia</p>
+             <p>Profession: Painter, Visual Artist, Art Dealer</p>
+             <p>Style: Post-Impressionism, Modern art, Symbolism, Primitivism and Synthetism</p>
+
+             <a href="#Top"><button>Go to the top of the website</button></a><br>
+             </div>
+        </div>
+
+        <h2 id="Table">Most visited art Galletier and Museums in the World between 2019 and 2021</h2>
+
+
+        <p id="instructions" onclick="instructions()">Click to access instruction of using Bar-chart below</menu></p>
+        <script>
+          function instructions(){
+            document.getElementById("instructions").innerHTML = "Bar-chart below displayes top 10 most visited art galleries all around the World between 2019 and 2022. If you click on one of three titles above the chart, you can remove it and previev data colums separately";
+          }
+        </script>
+        <canvas id="myChart" width="400" height="100"></canvas>
+
+        <p id="dataAnalysis" onclick="dataAnalysis()">Click to access data analysis from the chart</menu></p>
+        <script>
+          function dataAnalysis(){
+            document.getElementById("dataAnalysis").innerHTML = "As we see on the graph, data has an downfall tendency between 2019 and 2020 due to worldwide COVID-19 pandemic which caused number of lockdowns, therefore visiting art galleries almost impossible. Between 2020-2021 as the pandemic slowly eased, more and more people began to visit art galleries back causing increasing tendency visible on the graph. ";
+          }
+        </script>
+    
+        <div id="text">
+        <a href="#Top"><button>Go to the top of the website</button></a><br>
+        </div>
+
+        <h2 id="visiting">Visiting Art Gelleries and Museums nowadays</h2> 
+        <form name="form1" action ="#" id="box2">
+          <! data taken from - https://www.gov.uk/government/statistics/taking-part-201920-museums/museums-taking-part-survey-201920>
+          <p>The study conducted by UK Government, found out that only 0.5% of surveyed peope went to museums/art galleries at least onece a week in the last 12 months, 4% go to museums/art galleries at least once a month, 17% go to museums/art galleries at least 4 times a year, 15% go to museums/art galleries 2 times a year, 14% go to museums/art galleries once a year, and 48% havent visited museum/ art gellery in the past year</p>
+    
+          
+          <p id="data" onclick="data()">Click to see how to use space below</menu></p>
+            <script>
+              function data(){
+                document.getElementById("data").innerHTML = "In the space below input a value how many times you have visited museum or art gellery this year and compare yourself to the UK average.";
+              }
+            </script>
+          Number of visits in the gallery --> <input type="text" name="text1" value=" " />
+          <input type="button" value="See the answer"
+          onclick='average()' />
+          </form>
+    
+      <script>
+    function average()
+    {
+    if (document.form1.text1.value > 4) 
+    alert('You are above average'); 
+    if (document.form1.text1.value < 4)
+    alert('You are below average');
+    if (document.form1.text1.value == 4)
+    alert('Exact average');
+    }
+    
+          </script>
+    
+    <div id="text">
+      <a href="#Top"><button>Go to the top of the website</button></a>
+      </div>
+    
+
+
+        <h2 id="subscribe">Subscribe to our newsletter!</h2>
+
+        <form id="box2">
+          <label for="fname">First name:</label><br>
+          <input type="text"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text"><br>
+          <label for="email">Email:</label><br>
+          <input type="text"><br><br>
+
+
+<!Code for Dropdown menu taken from Boostrap - https://getbootstrap.com/docs/4.0/components/dropdowns/>        
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              College
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item">Collingwood</a>
+              <a class="dropdown-item">Grey</a>
+              <a class="dropdown-item">Hatfield</a>
+              <a class="dropdown-item">John Snow</a>
+              <a class="dropdown-item">Josephine Butler</a>
+              <a class="dropdown-item">South</a>
+              <a class="dropdown-item">St Aiden's</a>
+              <a class="dropdown-item">St Chad's</a>
+              <a class="dropdown-item">St Cuthbert's</a>
+              <a class="dropdown-item">St Hild and St Bede</a>
+              <a class="dropdown-item">St John's</a>
+              <a class="dropdown-item">St Marys</a>
+              <a class="dropdown-item">Stephenson</a>
+              <a class="dropdown-item">Trevelyan</a>
+              <a class="dropdown-item">Castle</a>
+              <a class="dropdown-item">Van Mildert</a>
+              <a class="dropdown-item">Ustinov</a>
+            </div>
+          </div><br>
+
+            <h4>Degree year</h4>
+            <input type="checkbox">
+            <label>1st year</label><br>
+            <input type="checkbox">
+            <label>2nd year</label><br>
+            <input type="checkbox">
+            <label>3rd year</label><br>
+            <input type="checkbox">
+            <label>4th year</label><br>
+
+            <button onclick="Function()">Submit</button>
+            <script>
+              function Function() {
+                alert("The response has been recorded");
+              }
+            </script>
+          </form>
+          
+        </form> 
+
+    </div>
+
+    </body>
+</html>
+
+
